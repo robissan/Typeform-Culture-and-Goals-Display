@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Company Culture Display"
+description = "An office-screen prototype combining colleague culture moments with clearly labeled sample MRR and MAU progress, plus an experimental aggregate coffee-and-beer view."
+version = "1.0.0"
+id = "artifacts/company-culture-display"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23987
+
+[services.development]
+run = "pnpm --filter @workspace/company-culture-display run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/company-culture-display", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/company-culture-display/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23987"
+BASE_PATH = "/"
