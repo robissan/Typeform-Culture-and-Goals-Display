@@ -39,7 +39,9 @@ _Describe the high-level user-facing capabilities of this app once they exist._
 ## User preferences
 
 - Use different screens instead of placing all content on one screen.
-- Apply Typeform's branding and design style; make the data more artistic and simplify it so it is easy to understand.
+- Apply Typeform's branding and design style; make the data more artistic and simplify it so it is easy to understand. The user rejected conventional metric rings, dot grids, and culture cards as too bland.
+- Use dynamic text and individuality-focused stories for people, with a separate screen celebrating collective culture. Treat the supplied references as living data-art posters, not dashboard layouts.
+- Revenue should resemble a journey; MAU should playfully mix words; barception should show animated coffee and beer with interesting, valid consumption insights.
 
 ## Gotchas
 
