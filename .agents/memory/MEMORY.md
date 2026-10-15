@@ -1,0 +1,1 @@
+- [Typeform brand references](typeform-brand-references.md) — automatic brand extraction can mistake customer logos for Typeform’s; verify identity against the site header.

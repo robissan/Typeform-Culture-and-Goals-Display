@@ -1,9 +1,11 @@
-# [Project name]
+# Typeform Commons
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A screen-first office prototype that brings Typeform culture, company progress, and aggregate barception data into a shared experience.
 
 ## Run & Operate
 
+- `pnpm --filter @workspace/company-culture-display run dev` — managed web workflow
+- `pnpm --filter @workspace/company-culture-display run typecheck` — web type check
 - `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
@@ -26,7 +28,9 @@ _Populate as you build — short repo map plus pointers to the source-of-truth f
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- This is a digital prototype, not a confirmed Typeform deployment. No business API, employee-content source, or sensor interface has been specified.
+- Metrics and beverage readings must remain explicitly illustrative until approved sources are connected. Culture profiles are fictional examples.
+- Beverage signals are aggregate-only, experimental, and never evidence of individual productivity or employee performance.
 
 ## Product
 
@@ -34,7 +38,8 @@ _Describe the high-level user-facing capabilities of this app once they exist._
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Use different screens instead of placing all content on one screen.
+- Apply Typeform's branding and design style; make the data more artistic and simplify it so it is easy to understand.
 
 ## Gotchas
 
